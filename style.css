@@ -6,12 +6,14 @@
 
 .main-block {
     display: flex;
-    justify-content: center;
+    justify-content: center;;
     background-color: green;
 }
 
 .main-block-width {
     width: 75%;
+    background-color: yellow;
+    border-top: 2px solid black;
 }
 
 .header-style {
@@ -39,5 +41,52 @@
 }
 
 .header-number {
-    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.icon-header {
+    width: 3%;
+    padding-right: 10px;
+}
+
+/* NAV BAR */
+
+.navbar-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.navbar-list-style {
+    list-style-type: none;
+    padding left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+.navbar-icon{
+    list-style-type: none;
+}
+
+.navbar-container {
+    margin: 0;
+    background-color: blue;
+}
+
+/* BODY */
+
+.green-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.green-buttons-items {
+    padding-right: 60px;
 }
